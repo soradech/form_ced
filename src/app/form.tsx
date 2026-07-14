@@ -11,6 +11,7 @@ export default function Form() {
         { label: 'Computer Education', value: 'CED', index: 2},
         { label: 'Electrical Engineering', value: 'EE', index: 3},
         { label: 'Mechanical Engineering', value: 'ME', index: 4},
+        { label: 'Teaching Training', value: 'TT', index: 5},
     ];
     const [data, setData] = useState({
         name: "",
